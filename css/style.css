@@ -1,0 +1,194 @@
+body{
+  text-align:center;
+  font-family:"Monaco";
+  background-color:#f8e1f3;
+  color:#070808;
+  margin: 0;
+}
+
+h1{
+  font-size:60px;
+  font-weight:300;
+  color: #000000;
+  
+}
+
+h2{
+  color:#4B0082;
+  font-size:40px;
+}
+
+h3{
+   font-size:22px;
+   font-style: italic;
+   color: #4B0082;
+}
+
+p{
+  line-height:1.5;
+  font-size:20px;
+}
+
+img{
+  width:100%;
+}
+
+.pontos-negativos{
+  color:#4B0082;
+}
+
+.pontos-positivos{
+  color:#4B0082;
+}
+
+.conclusao{
+  color:#4B0082;
+}
+
+section{
+ width:60%;
+ margin: 0 auto;
+}
+
+section section{
+  width:100%;
+}
+
+ul{
+  list-style-type:none;
+  line-height:2;
+  padding-left:0;
+}
+
+li{
+  list-style-type:none;
+}
+
+a{
+  text-decoration:none;
+  color:#4B0082;
+  font-weight:700;
+}
+
+.principal{
+  background-color:#000000;
+  height:40px;
+  border-radius: 20px;
+  max-width:85%;
+  justify-content: center;
+  margin: 0 89px;
+}
+
+.principal a{
+  color:#fff;
+  text-decoration:underline;
+  font-weight:normal;
+}
+
+.principal a:hover{
+  color: hotpink;
+}
+
+.principal li{
+  display:inline-block;
+  line-height: 2.5;
+  margin:0 89px
+}
+
+.container{
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 500px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100%;
+  background:#f2f1f1;
+  margin-top: 10px;
+  border-radius: 5px;
+  padding: 16px;
+}
+
+.avatar{
+  width:180px;
+  height:180px;
+  border-radius:200px;
+}
+
+.container-sobre{
+  display:flex;
+}
+
+.sobre p{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 32px;
+  line-height: 25px;
+}
+
+.nome{
+  color:#4B0082;
+  font-size: 20px;
+  font-weight: 100;
+
+
+}
+
+.container-descricao{
+  color: rgb(0, 0, 0);
+
+}
+
+.container-descricao a:hover{
+  color: hotpink;
+}
+
+.descricao{
+  color: rgb(0, 0, 0);
+}
+
+.container-descricao li{
+  display: flex;
+  justify-content:space-around;
+  color: #4B0082;
+}
+
+button{
+  background-color:black;
+  border:1px solid transparent;
+  padding: 2px 20px;
+  border-radius: 3px;
+  color: #f2f1f1;
+  
+}
+
+button:hover{
+  color: hotpink;
+}
+
+details {
+  border: 1px solid rgb(189, 62, 206);
+  border-radius: 4px;
+  padding: .5em .5em 0;
+  color: #000000;
+  background-color: #efe1f1;
+}
+
+summary {
+  font-weight: bold;
+  margin: -.5em -.5em 0;
+  padding: .5em;
+}
+
+summary:hover{
+  color:hotpink;
+}
+
+details[open] {
+  padding: .5em;
+}
+
+details[open] summary {
+  border-bottom: 1px solid #aaa;
+  margin-bottom: .5em;
+}
